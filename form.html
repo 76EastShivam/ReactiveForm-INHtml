@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>JavaScript Form Validation using a sample registration form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+<script src="sample-registration-form-validation.js"></script>
+</head>
+<body onload="document.registration.userid.focus();">
+<h1>Registration Form</h1>
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<li><label for="userid">first name:</label></li>
+<li><input type="text" name="firstnameid" size="12" /></li>
+<li><label for="passid">last name:</label></li>
+<li><input type="password" name="lastnameid" size="12" /></li>
+</select></li>
+<li><label for="zip">mobile no:</label></li>
+<li><input type="text" name="zip" /></li>
+<li><label for="email">Email:</label></li>
+<li><input type="text" name="email" size="50" /></li>
+<li><label id="gender">gender:</label></li>
+<li><input type="radio" name="mgender" value="Male" /><span>Male</span></li>
+<li><input type="radio" name="fgender" value="Female" /><span>Female</span></li>
+<li><label for="userid">password:</label></li>
+<li><input type="text" name="passwordid" size="12" /></li>
+<li><label for="userid">confirm password:</label></li>
+<li><input type="text" name="coonfirmpasswordid" size="12" /></li>
+<li><input type="checkbox" name="about" value="I agree all the terms and condtions:" /><span> I agree all the terms and condtions</span>
+    <li><input type="submit" name="submit" value="Submit" /></li>
+</body>
+</html>
